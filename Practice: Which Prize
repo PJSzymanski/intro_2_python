@@ -1,0 +1,19 @@
+points = 174  # use this input to make your submission
+
+
+# write your if statement here
+prize_1 = "wooden rabbit"
+prize_2 = "wafer-thin mint"
+prize_3 = "penguin"
+ 
+if points <=50:
+    result = "Congratulations! You won a "+prize_1+"!"
+elif points >50 and points <=150:
+    result = "Oh dear, no prize this time."
+elif points >150 and points <=180:
+    result = "Congratulations! You won a "+prize_2+"!"
+elif points >180 and points <=200:
+    result = "Congratulations! You won a "+prize_3+"!"
+elif points >200:
+    result = "You are cheating"
+print(result)
